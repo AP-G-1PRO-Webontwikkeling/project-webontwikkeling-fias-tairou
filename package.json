@@ -1,0 +1,16 @@
+{
+  "name": "project-webontwikkeling-fias-tairou",
+  "version": "1.0.0",
+  "description": "project 2024 Fias Tairou",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/readline-sync": "^1.4.8",
+    "readline-sync": "^1.4.10"
+  }
+}
