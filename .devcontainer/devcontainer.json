@@ -15,7 +15,23 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm i -g -D nodemon"
+	"postCreateCommand": "npm i -g -D nodemon",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"christian-kohler.npm-intellisense",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"eamodio.gitlens",
+				"xabikos.JavaScriptSnippets",
+				"mikestead.dotenv",
+				"aaron-bond.better-comments",
+				"streetsidesoftware.code-spell-checker",
+				"vscode-icons-team.vscode-icons",
+				"formulahendry.auto-close-tag"
+			]
+		}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
